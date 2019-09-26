@@ -1,0 +1,19 @@
+!This is a comment!
+!Comments enclosed by exclamation marks are ignored!
+!The syntaxer was combined with the lexer!
+!Only 1 statement is allowed per if/else/while block!
+
+bool false = F
+while(a = b + c)
+{
+    d = e * f
+}
+if(aa = bb - cc)
+{
+    int aa = 22
+}
+else
+{
+    int aa = 33
+}
+dd = ee / ff

@@ -1,0 +1,78 @@
+identifier: bool
+identifier: false
+equal: =
+identifier: F
+identifier: while
+l_parenthesis: (
+identifier: a
+S -> i = E
+equal: =
+identifier: b
+F -> i
+T -> FR
+plus: +
+R -> sigma
+E -> TQ
+Q -> +TQ
+identifier: c
+F -> i
+T -> FR
+r_parenthesis: )
+R -> sigma
+Q -> sigma
+l_curly: {
+identifier: d
+S -> i = E
+equal: =
+identifier: e
+F -> i
+T -> FR
+star: *
+R -> *FR
+identifier: f
+F -> i
+r_curly: }
+R -> sigma
+E -> TQ
+Q -> sigma
+identifier: if
+l_parenthesis: (
+identifier: aa
+S -> i = E
+equal: =
+identifier: bb
+F -> i
+T -> FR
+minus: -
+R -> sigma
+E -> TQ
+Q -> -TQ
+identifier: cc
+F -> i
+T -> FR
+r_parenthesis: )
+R -> sigma
+Q -> sigma
+l_curly: {
+identifier: int
+identifier: aa
+equal: =
+identifier: 22
+r_curly: }
+identifier: else
+l_curly: {
+identifier: int
+identifier: aa
+equal: =
+identifier: 33
+r_curly: }
+identifier: dd
+S -> i = E
+equal: =
+identifier: ee
+F -> i
+T -> FR
+slash: /
+R -> /FR
+identifier: ff
+F -> i
